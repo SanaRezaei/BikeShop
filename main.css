@@ -1,0 +1,140 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------------- Initialisation ---------------*/
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*------------- partie nav ---------------*/
+
+.logo{
+    width: 60px;
+}
+
+nav h6{
+    color: #fff;
+}
+
+.h-navbar{
+    height: 70px;
+}
+
+.container-image{
+    height: 300px;
+    background-image: url("images/bike-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*------------- contenu---------------*/
+
+p.card-text span{
+    padding: 7px;
+    border: solid 1px #22d1ee;
+    color: #22d1ee;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: all .3s ease-in-out;
+}
+p.card-text span:hover{
+    background-color: #22d1ee;
+    color: #fff;
+}
+
+.card{
+    transition: scale .3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card-title{
+    margin-bottom: 20px;
+}
+
+/*------------- Shop---------------*/
+
+.bike{
+    width: 100px;
+}
+
+.change-couleur{
+    background-color: #fff;
+}
+
+
+.quantity{
+    border: 1px solid gray;
+    background-color: white;
+    width: 100px;
+}
+.refresh{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.refresh .input{
+    width: 130px;
+}
+.refresh i{
+    width: 50px;
+    padding: 10px;
+    border: solid 1px #22d1ee;
+    color: #22d1ee;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.fa-trash-alt{
+    color: #22d1ee;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #22d1ee;
+    cursor: pointer;
+}
+
+.btn{
+    border: solid 1px #22d1ee;
+    color: rgb(60, 161, 205);
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    background-color: #22d1ee;
+    color: #fff;
+}
+
+tfoot{
+
+}
+
+
+
+
+
+
+/*------------- Footer---------------*/
+
+footer{
+    height: 300px;
+}
+.logo-footer{
+    width: 100px;
+    height: auto;
+    background-color: darkkhaki;
+}
+
+.mon-footer{
+    height: 100%;
+    height: 300px;
+}
